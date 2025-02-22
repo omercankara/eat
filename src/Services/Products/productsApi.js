@@ -1,4 +1,4 @@
-import axios from "axios";  // axios'u default import ediyoruz
+import axios from "axios"; 
 
 export const getProduct = async () => {  // async fonksiyon tanımlıyoruz
     const url = 'https://www.themealdb.com/api/json/v1/1/search.php?f=a';
