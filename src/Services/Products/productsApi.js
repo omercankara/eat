@@ -1,6 +1,6 @@
 import axios from "axios"; 
 
-export const getProduct = async () => {  // async fonksiyon tanımlıyoruz
+export const getProduct = async () => {  
     const url = 'https://www.themealdb.com/api/json/v1/1/search.php?f=a';
     try {
         const response = await axios.get(url);  // await kullanabilmek için async fonksiyon olmalı
